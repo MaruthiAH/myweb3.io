@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            *{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            .t1{
+                border-collapse: collapse;
+                margin: 2px 0;
+                font-size: 0.5cm;
+                min-width: 600px;
+                border-radius: 5px 5px 0 0;
+                overflow: hidden;
+                box-shadow: 0 0 20px rgba(0,0,0,0.15);
+            }
+
+            .t1 thead tr{
+                background-color: rgb(2, 108, 110);
+                color: aliceblue;
+                text-align: left;
+                font-weight: bold;
+            }
+                
+                .t1 th, .t1 td{
+                    padding: 15px 18px;
+                
+
+            }
+
+            .t1 tbody tr{
+                border-bottom: 2px solid gray;
+            }
+
+           
+
+            .t1 tbody tr:last-of-type{
+                border-bottom: 3px solid rgb(4, 100, 101);
+            }
+
+            .t1 tbody tr.active{
+                color: rgb(2, 100, 101);
+                background-color: rgba(216, 211, 211, 0.637);
+            }
+
+            
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <center>
+
+        <table class="t1">
+            <thead>
+
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Domenic</td>
+                <td>88,110</td>
+                <td>dcode</td>
+            </tr>
+
+            <tr class="active">
+                <td>2</td>
+                <td>sally</td>
+                <td>72,400</td>
+                <td>Students</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>52,300</td>
+                <td>dcode</td>
+            </tr>
+
+           
+
+        </tbody>
+        </table>
+        </center>
+    </body>
+</html>
